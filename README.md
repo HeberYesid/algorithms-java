@@ -16,6 +16,7 @@ Estructuras de datos, algoritmos de búsqueda, programación dinámica, optimiza
 | `u6-lcs-floyd/` | Post2 U6-2026 | LCS + Edit Distance + Floyd-Warshall + JMH | DP strings, grafos |
 | `u7-tfidf-sparse-segment-fenwick/` | Post2 U7-2026 | TF-IDF + SparseTable + SegmentTree + Fenwick + JMH | IR, range queries |
 | `u8-lru-cache/` | Post2 U8-2026 | LRU Cache + WriteThrough + WriteBehind + OptimisticLock + JMH | Caching, concurrencia |
+| `u5-graph-algorithms/` | U5 Post1+Post2 | BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim, TopSort, SCC + JMH | Grafos, shortest path, MST |
 
 ## Tecnologías
 
