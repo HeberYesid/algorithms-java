@@ -1,0 +1,11 @@
+target/
+target-mvn/
+*.class
+*.jar
+*.json
+results/
+.idea/
+.vscode/
+*.log
+*.swp
+*.bak

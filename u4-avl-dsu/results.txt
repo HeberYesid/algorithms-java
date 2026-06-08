@@ -1,0 +1,175 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.TreeBenchmark.avlContains
+
+# Run progress: 0.00% complete, ETA 00:00:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 1186.570 ops/ms
+Iteration   1: 1958.361 ops/ms
+Iteration   2: 2212.813 ops/ms
+Iteration   3: 3991.201 ops/ms
+
+
+Result "edu.benchmarks.TreeBenchmark.avlContains":
+  2720.792 ┬▒(99.9%) 20205.624 ops/ms [Average]
+  (min, avg, max) = (1958.361, 2720.792, 3991.201), stdev = 1107.538
+  CI (99.9%): [Ôëê 0, 22926.416] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.TreeBenchmark.avlInsert
+
+# Run progress: 16.67% complete, ETA 00:00:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.037 ops/ms
+Iteration   1: 0.039 ops/ms
+Iteration   2: 0.039 ops/ms
+Iteration   3: 0.039 ops/ms
+
+
+Result "edu.benchmarks.TreeBenchmark.avlInsert":
+  0.039 ┬▒(99.9%) 0.005 ops/ms [Average]
+  (min, avg, max) = (0.039, 0.039, 0.039), stdev = 0.001
+  CI (99.9%): [0.034, 0.044] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.TreeBenchmark.treeMapContains
+
+# Run progress: 33.33% complete, ETA 00:00:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 4435.008 ops/ms
+Iteration   1: 4221.320 ops/ms
+Iteration   2: 3731.276 ops/ms
+Iteration   3: 3813.460 ops/ms
+
+
+Result "edu.benchmarks.TreeBenchmark.treeMapContains":
+  3922.018 ┬▒(99.9%) 4787.873 ops/ms [Average]
+  (min, avg, max) = (3731.276, 3922.018, 4221.320), stdev = 262.439
+  CI (99.9%): [Ôëê 0, 8709.891] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.TreeBenchmark.treeMapInsert
+
+# Run progress: 50.00% complete, ETA 00:00:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.044 ops/ms
+Iteration   1: 0.046 ops/ms
+Iteration   2: 0.046 ops/ms
+Iteration   3: 0.047 ops/ms
+
+
+Result "edu.benchmarks.TreeBenchmark.treeMapInsert":
+  0.046 ┬▒(99.9%) 0.009 ops/ms [Average]
+  (min, avg, max) = (0.046, 0.046, 0.047), stdev = 0.001
+  CI (99.9%): [0.037, 0.055] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.UnionFindBenchmark.dsuUnionOnRandomGraph
+
+# Run progress: 66.67% complete, ETA 00:00:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.291 ops/ms
+Iteration   1: 0.288 ops/ms
+Iteration   2: 0.291 ops/ms
+Iteration   3: 0.254 ops/ms
+
+
+Result "edu.benchmarks.UnionFindBenchmark.dsuUnionOnRandomGraph":
+  0.278 ┬▒(99.9%) 0.380 ops/ms [Average]
+  (min, avg, max) = (0.254, 0.278, 0.291), stdev = 0.021
+  CI (99.9%): [Ôëê 0, 0.658] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.8, OpenJDK 64-Bit Server VM, 21.0.8+9-LTS
+# VM invoker: C:\Users\HeberYesid\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 500 ms each
+# Measurement: 3 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: edu.benchmarks.UnionFindBenchmark.hashMapUnionOnRandomGraph
+
+# Run progress: 83.33% complete, ETA 00:00:02
+# Fork: 1 of 1
+# Warmup Iteration   1: Ôëê 10Ôü╗ÔüÁ ops/ms
+Iteration   1: Ôëê 10Ôü╗ÔüÁ ops/ms
+Iteration   2: Ôëê 10Ôü╗ÔüÁ ops/ms
+Iteration   3: Ôëê 10Ôü╗ÔüÁ ops/ms
+
+
+Result "edu.benchmarks.UnionFindBenchmark.hashMapUnionOnRandomGraph":
+  Ôëê 10Ôü╗ÔüÁ ops/ms
+
+
+# Run complete. Total time: 00:06:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                      Mode  Cnt     Score       Error   Units
+TreeBenchmark.avlContains                     thrpt    3  2720.792 ┬▒ 20205.624  ops/ms
+TreeBenchmark.avlInsert                       thrpt    3     0.039 ┬▒     0.005  ops/ms
+TreeBenchmark.treeMapContains                 thrpt    3  3922.018 ┬▒  4787.873  ops/ms
+TreeBenchmark.treeMapInsert                   thrpt    3     0.046 ┬▒     0.009  ops/ms
+UnionFindBenchmark.dsuUnionOnRandomGraph      thrpt    3     0.278 ┬▒     0.380  ops/ms
+UnionFindBenchmark.hashMapUnionOnRandomGraph  thrpt    3    Ôëê 10Ôü╗ÔüÁ              ops/ms
